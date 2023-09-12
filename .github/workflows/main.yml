@@ -24,7 +24,7 @@ jobs:
 
       - name: run model
         run: |
-          whisper sample1.mp3 --model small
+          whisper sample1.mp3 --model medium
 
       - name: Upload Archive Artifact
         uses: actions/upload-artifact@v2
